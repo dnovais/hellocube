@@ -44,7 +44,7 @@ module DiegoNovais
       # wrote `tut_hello_world/main` instead of `tut_hello_world/main.rb`.
       # SketchUp is smart enough to find the file regardless and this is
       # required if you decide to later encrypt the extension.
-      ex = SketchupExtension.new('Hello Cube', 'tut_hello_cube/main')
+      ex = SketchupExtension.new('Hello Cube', 'hello_cube/main')
 
       # Next we add some information to the extension. This isn't required, but
       # highly recommended as it helps the user when managing her installed
